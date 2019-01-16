@@ -10,7 +10,6 @@ function unique(arr1, arr2){
     }    
     //this loop runs through the second array and compares itself with each items in array 1
     for (var x = 0; x < arr2.length; x++){
-        //If the item array does not match because it is -1 it will push that item to result array.
         if (arr1.indexOf(arr2[x]) === -1){
             result.push(arr2[x])
         }
